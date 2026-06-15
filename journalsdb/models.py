@@ -289,8 +289,8 @@ class JournalsTitleHistory(Base):
                 'publisherid': self.publisherid,
                 'successor_bibstems': self.successor_bibstems,
                 'predecessor_bibstems': self.predecessor_bibstems,
-                'successor_bibstems': self.successor_issns,
-                'predecessor_bibstems': self.predecessor_issns,
+                'successor_issns': self.successor_issns,
+                'predecessor_issns': self.predecessor_issns,
                 'successor_codens': self.successor_codens,
                 'predecessor_codens': self.predecessor_codens,
                 'notes': self.notes}
